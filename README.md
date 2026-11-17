@@ -22,7 +22,7 @@ This portfolio documents my self‑study journey in cybersecurity and ethical 
 
 ## 🖼️ Screenshot of Nmap Scan
 ![Nmap Localhost Scan Result]
-
+(https://github.com/pertofolionmap/nmap-cybersecurity-portofolio/raw/main/Cuplikan%20layar%202026-11-17%20205630.png)
 
 ## 📚 Learning Outcomes
 1. Understand the basic concept of port scanning
