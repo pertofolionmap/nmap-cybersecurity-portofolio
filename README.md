@@ -21,7 +21,7 @@ This portfolio documents my self‑study journey in cybersecurity and ethical 
 ✅ Scan Duration: 12,50 seconds
 
 ## 🖼️ Screenshot of Nmap Scan
-![Nmap Localhost Scan Result](https://github.com/petofolionmap/nmap-cybersecurity-portofolio/blob/main/Cuplikan%20layar%202026-11-17%20205630.png?raw=true)
+![Nmap Localhost Scan Result]
 
 ## 📚 Learning Outcomes
 1. Understand the basic concept of port scanning
