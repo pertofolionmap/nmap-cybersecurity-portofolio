@@ -23,6 +23,7 @@ This portfolio documents my self‑study journey in cybersecurity and ethical 
 ## 🖼️ Screenshot of Nmap Scan
 ![Nmap Localhost Scan Result]
 
+
 ## 📚 Learning Outcomes
 1. Understand the basic concept of port scanning
 2. Learn how to interpret Nmap output, open ports, and service‑version data
