@@ -32,13 +32,13 @@ This portfolio documents my self‑study journey in cybersecurity and ethical 
 
 ## 🎓 Portfolio Goal
 Develop fundamental cybersecurity knowledge to prepare for IT‑major admission and MEXT scholarship requirements
-Nmap Scan Phases Lab: Target Enumeration to Version Detection
+Nmap Scan Phases Lab: Target Enumeration to Version Detection                                                                               ---
+
+# 📑 Phase 2 & Phase 3 ‑ Detailed Port Analysis & Security‑Risk Assessment                                                                                                                                                                                                                 
 📌 Project Overview
 This repository documents my practical lab on understanding the fundamental phases of an Nmap scan, as part of my self-study journey in cybersecurity. The objective of this lab is to demonstrate the step-by-step workflow of Nmap, starting from discovering targets to identifying open ports and running services.
 
-⚠️ Ethical Disclaimer: All scanning activities in this lab were strictly performed on my own local machine (127.0.0.1). No external IP addresses or unauthorized networks were scanned, adhering to ethical hacking principles.
----
-# 📑 Phase 2 & Phase 3 ‑ Detailed Port Analysis & Security‑Risk Assessment                                                                                                                                                                                                                       
+⚠️ Ethical Disclaimer: All scanning activities in this lab were strictly performed on my own local machine (127.0.0.1). No external IP addresses or unauthorized networks were scanned, adhering to ethical hacking principles.                     
 🛠️ Tools Used
 Nmap (Network Mapper) version 7.993
 Windows PowerShell (Command-line interface)
