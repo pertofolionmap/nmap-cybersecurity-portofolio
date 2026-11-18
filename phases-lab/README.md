@@ -43,7 +43,7 @@ This is the core phase. I performed a SYN scan to find open ports and combined i
     *   *Other open ports:* 5906/tcp, 5907/tcp.
     *   **Service Info:** Nmap accurately detected the OS as Microsoft Windows based on the TCP/IP fingerprints.
 
-*(Insert your Phase 3 Screenshot Here)*
+*(Insert your Phase 3 Screenshot Here)*https://github.com/pertofolionmap/nmap-cybersecurity-portofolio/blob/main/phases-lab/Cuplikan%20layar%202026-11-18%20110618.png?raw=true
 
 ---
 
