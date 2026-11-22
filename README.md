@@ -106,6 +106,6 @@ The Nmap Scripting Engine (NSE) was used to run default scripts against specific
   <summary>📸 <b>Click to view Phase 4 & 5 Screenshot</b></summary>
   <br>
   
-  ![Phase 4 & 5 Screenshot]([LINK_GAMBAR_SS_KAMU] (https://github.com/pertofolionmap/nmap-cybersecurity-portofolio/blob/main/phases-lab/Cuplikan%20layar%202026-11-22%20210544.png?raw=true)
+  ![Phase 4 & 5 Screenshot]([LINK_GAMBAR_SS_KAMU]
   
 </details>
