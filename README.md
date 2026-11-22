@@ -80,20 +80,13 @@ Reading the Output: Learned how to interpret the Nmap output, specifically under
 Command Proficiency: Gained practical experience in using essential Nmap flags (-sL, -n, -sn, -sS, -sV) and understanding their impact on the scan results.
 Ethical Boundaries: Reinforced the importance of conducting scans only on authorized environments (localhost) to avoid legal consequences.
 ---
+*(Note: I would like to apologize in advance. The terminal screenshots for these phases are provided below and may appear slightly cropped due to terminal scrolling. However, I have documented the executed commands and their corresponding outputs clearly in the text to ensure full clarity).*
 
-                        ### 🔬 Phase 4: OS Detection
+### 🔬 Phase 4: OS Detection
 In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
 
 *   **Command executed:** `nmap -O 127.0.0.1`
 *   **Result:** Nmap successfully identified the target operating system as **Microsoft Windows 11** (OS CPE: cpe:/o:microsoft:windows_11) with high accuracy (Network Distance: 0 hops).
-
-<details>
-  <summary>📸 <b>Click to view Phase 4 Screenshot</b></summary>
-  <br>
-  
-  ![Phase 4 Screenshot](LINK_GAMBAR_FASE_4)
-  
-</details>
 
 ### 🛡️ Phase 5: Script Scanning (NSE)
 The Nmap Scripting Engine (NSE) was used to run default scripts against specific high-risk ports (135 and 445) to gather deeper security insights.
@@ -110,9 +103,9 @@ The Nmap Scripting Engine (NSE) was used to run default scripts against specific
 *Conclusion:* The OS detection successfully confirmed the target, and the NSE script proved that the SMB service is securely configured against common MITM attacks.
 
 <details>
-  <summary>📸 <b>Click to view Phase 5 Screenshot</b></summary>
+  <summary>📸 <b>Click to view Phase 4 & 5 Screenshot</b></summary>
   <br>
   
-  ![Phase 5 Screenshot](LINK_GAMBAR_FASE_5)
+  ![Phase 4 & 5 Screenshot](LINK_GAMBAR_SS_KAMU)
   
 </details>
