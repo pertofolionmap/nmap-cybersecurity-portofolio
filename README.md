@@ -34,10 +34,10 @@ This portfolio documents my self‑study journey in cybersecurity and ethical 
 Develop fundamental cybersecurity knowledge to prepare for IT‑major admission and MEXT scholarship requirements
 Nmap Scan Phases Lab: Target Enumeration to Version Detection                                                                               ---
 
-# 📑 Phase 2 & Phase 3 ‑ Detailed Port Analysis & Security‑Risk Assessment 
-                                                                                                                                                                                                                                               
-        📌 Project Overview
-                   
+                   # 📑 Phase 2 & Phase 3 ‑ Detailed Port Analysis & Security‑Risk Assessment 
+                                                                                                                                                                                                                                          
+                                                📌 Project Overview
+                                                                                                                              
 This repository documents my practical lab on understanding the fundamental phases of an Nmap scan, as part of my self-study journey in cybersecurity. The objective of this lab is to demonstrate the step-by-step workflow of Nmap, starting from discovering targets to identifying open ports and running services.
 
 ⚠️ Ethical Disclaimer: All scanning activities in this lab were strictly performed on my own local machine (127.0.0.1). No external IP addresses or unauthorized networks were scanned, adhering to ethical hacking principles.                     
@@ -79,3 +79,40 @@ Understanding the Workflow: I now understand that an Nmap scan is not just a sin
 Reading the Output: Learned how to interpret the Nmap output, specifically understanding the difference between "open", "closed", and "filtered" states, and identifying high-risk ports like 445 (SMB).
 Command Proficiency: Gained practical experience in using essential Nmap flags (-sL, -n, -sn, -sS, -sV) and understanding their impact on the scan results.
 Ethical Boundaries: Reinforced the importance of conducting scans only on authorized environments (localhost) to avoid legal consequences.
+---
+
+                        ### 🔬 Phase 4: OS Detection
+In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
+
+*   **Command executed:** `nmap -O 127.0.0.1`
+*   **Result:** Nmap successfully identified the target operating system as **Microsoft Windows 11** (OS CPE: cpe:/o:microsoft:windows_11) with high accuracy (Network Distance: 0 hops).
+
+<details>
+  <summary>📸 <b>Click to view Phase 4 Screenshot</b></summary>
+  <br>
+  
+  ![Phase 4 Screenshot](LINK_GAMBAR_FASE_4)
+  
+</details>
+
+### 🛡️ Phase 5: Script Scanning (NSE)
+The Nmap Scripting Engine (NSE) was used to run default scripts against specific high-risk ports (135 and 445) to gather deeper security insights.
+
+*   **Command executed:** `nmap -sC -p 135,445 127.0.0.1`
+
+**Result & Security Insight:**
+
+| Port | State | Service | Script Output | Security Implication |
+| :--- | :--- | :--- | :--- | :--- |
+| **135/tcp** | Open | msrpc | *(No specific script output)* | Exposes Microsoft RPC interface. Needs strict firewall rules. |
+| **445/tcp** | Open | microsoft-ds | `smb2-security-mode: Message signing enabled and required` | **Good posture.** Prevents SMB relay attacks. The `smb2-time` script also retrieved the system date/time. |
+
+*Conclusion:* The OS detection successfully confirmed the target, and the NSE script proved that the SMB service is securely configured against common MITM attacks.
+
+<details>
+  <summary>📸 <b>Click to view Phase 5 Screenshot</b></summary>
+  <br>
+  
+  ![Phase 5 Screenshot](LINK_GAMBAR_FASE_5)
+  
+</details>
