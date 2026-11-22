@@ -80,10 +80,10 @@ Reading the Output: Learned how to interpret the Nmap output, specifically under
 Command Proficiency: Gained practical experience in using essential Nmap flags (-sL, -n, -sn, -sS, -sV) and understanding their impact on the scan results.
 Ethical Boundaries: Reinforced the importance of conducting scans only on authorized environments (localhost) to avoid legal consequences.
 ---
-*(Note: I would like to apologize in advance. The terminal screenshots for these phases are provided below and may appear slightly cropped due to terminal scrolling. However, I have documented the executed commands and their corresponding outputs clearly in the text to ensure full clarity).*
+*(Note: I would like to apologize in advance. The terminal screenshots for these phases are provided below and may appear slightly cropped due to terminal scrolling. However, I have documented the executed commands and their corresponding outputs clearly in the text to ensure full clarity).*🙏
 
-### 🔬 Phase 4: OS Detection
-In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
+                                   ### 🔬 Phase 4: OS Detection                                                                                                                                                       
+        In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
 
 *   **Command executed:** `nmap -O 127.0.0.1`
 *   **Result:** Nmap successfully identified the target operating system as **Microsoft Windows 11** (OS CPE: cpe:/o:microsoft:windows_11) with high accuracy (Network Distance: 0 hops).
@@ -106,6 +106,6 @@ The Nmap Scripting Engine (NSE) was used to run default scripts against specific
   <summary>📸 <b>Click to view Phase 4 & 5 Screenshot</b></summary>
   <br>
   
-  ![Phase 4 & 5 Screenshot]([LINK_GAMBAR_SS_KAMU]
+  ![Phase 4 & 5 Screenshot]([LINK_GAMBAR_SS_KAMU]https://github.com/pertofolionmap/nmap-cybersecurity-portofolio/blob/main/phases-lab/Cuplikan%20layar%202026-11-22%20210544.png?raw=true
   
 </details>
