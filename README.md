@@ -35,7 +35,7 @@ Develop fundamental cybersecurity knowledge to prepare for IT‑ma
 Nmap Scan Phases Lab: Target Enumeration to Version Detection                                                                               ---
 
                    # 📑 Phase 2 & Phase 3 ‑ Detailed Port Analysis & Security‑Risk Assessment 
-                                                                                                                                                                                                                                          
+                                                                                     
                                                 📌 Project Overview
                                                                                                                               
 This repository documents my practical lab on understanding the fundamental phases of an Nmap scan, as part of my self-study journey in cybersecurity. The objective of this lab is to demonstrate the step-by-step workflow of Nmap, starting from discovering targets to identifying open ports and running services.
@@ -71,7 +71,7 @@ Port 135/tcp (msrpc): Microsoft Windows RPC.
 Port 445/tcp (microsoft-ds): SMB File Sharing (this is a critical port often targeted by attackers, e.g., EternalBlue exploit).
 Port 5357/tcp (wsdapi): Web Services on Devices API.
 Other open ports: 5906/tcp, 5907/tcp.
-Service Info: Nmap accurately detected the OS as Microsoft Windows based on the TCP/IP fingerprints.
+Service Info: Nmap accurately detected the OS as Microsoft Windows based on the TCP/IP fingerprints.                                             
 *(Insert your Phase 3 Screenshot Here)*https://github.com/pertofolionmap/nmap-cybersecurity-portofolio/blob/main/phases-lab/Cuplikan%20layar%202026-11-18%20110618.png?raw=true
 
 🧠 Learning Outcomes
@@ -79,12 +79,12 @@ Understanding the Workflow: I now understand that an Nmap scan is not just a sin
 Reading the Output: Learned how to interpret the Nmap output, specifically understanding the difference between "open", "closed", and "filtered" states, and identifying high-risk ports like 445 (SMB).
 Command Proficiency: Gained practical experience in using essential Nmap flags (-sL, -n, -sn, -sS, -sV) and understanding their impact on the scan results.
 Ethical Boundaries: Reinforced the importance of conducting scans only on authorized environments (localhost) to avoid legal consequences.
----
+---                                                                                                                                              
+      ### 🔬 Phase 4: OS Detection : In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
+    
+                                                                                                           
 *(Note: I would like to apologize in advance. The terminal screenshots for these phases are provided below and may appear slightly cropped due to terminal scrolling. However, I have documented the executed commands and their corresponding outputs clearly in the text to ensure full clarity).*🙏
-
-                                   ### 🔬 Phase 4: OS Detection                                                                                                                                                       
-        In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
-
+                                                                                                                                                                    
 *   **Command executed:** `nmap -O 127.0.0.1`
 *   **Result:** Nmap successfully identified the target operating system as **Microsoft Windows 11** (OS CPE: cpe:/o:microsoft:windows_11) with high accuracy (Network Distance: 0 hops).
 
