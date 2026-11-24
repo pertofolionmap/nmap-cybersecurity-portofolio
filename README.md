@@ -80,7 +80,7 @@ Reading the Output: Learned how to interpret the Nmap output, specifically under
 Command Proficiency: Gained practical experience in using essential Nmap flags (-sL, -n, -sn, -sS, -sV) and understanding their impact on the scan results.
 Ethical Boundaries: Reinforced the importance of conducting scans only on authorized environments (localhost) to avoid legal consequences.
 ---                                                                                                                                              
-      ### 🔬 Phase 4: OS Detection : In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
+     ### 🔬 Phase 4: OS Detection : In this phase, I used the OS detection flag to perform TCP/IP stack fingerprinting. 
     
                                                                                                            
 *(Note: I would like to apologize in advance. The terminal screenshots for these phases are provided below and may appear slightly cropped due to terminal scrolling. However, I have documented the executed commands and their corresponding outputs clearly in the text to ensure full clarity).*🙏
